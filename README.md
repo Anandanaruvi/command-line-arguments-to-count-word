@@ -34,15 +34,15 @@ End the program.
 import sys
 count=0
 with open(sys.argv[1],'r') as f:
-        
         for line in f:
-            word=line.split()
-            count+=len(word)
+
+          word=line.split()
+          count+=len(word)
 print("Word Count in File=",count)
+
 ### OUTPUT:
 
 ![](./command.png)
-
 
 ## RESULT:
 Thus the program is written to find the word count from the contents of a file using command line arguments.
